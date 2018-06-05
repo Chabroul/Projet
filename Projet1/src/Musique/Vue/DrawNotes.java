@@ -14,6 +14,9 @@ import Musique.Modele.Morceau;
 public class DrawNotes extends JPanel {
 	protected ArrayList<Character> myNotes ;
 	Morceau Morc ;
+	
+	
+	
 	public DrawNotes  (ArrayList<Character> myNotes,Morceau Morc)
 	{
 		this.myNotes=myNotes; 
@@ -51,8 +54,8 @@ public class DrawNotes extends JPanel {
 	      switch (Morc.getTonalite())
 	      {
 	      case "Gmaj" : g.drawImage(diese, 130,150,this) ;
-	      				yA =133  ; yB=105 ;yC=73 ; yD=33 ; yE=30 ; yF=3 ; yG=150 ;break ;
-	      case "Cmaj": yA =133  ; yB=105 ;yC=255 ; yD=230 ; yE=200 ; yF=175 ; yG=150 ; break ;
+	      				yG=150 ;yA =133  ; yB=105 ;yC=90 ; yD=62 ; yE=47 ; yF=19 ;break ;
+	      case "Cmaj" : yC=255 ; yD=230 ; yE=200 ; yF=175 ; yG=150 ; yA =133  ; yB=105 ; break ;
 	      }
 	      for (int i = 0 ; i < liste.length() ;i++)
 				{

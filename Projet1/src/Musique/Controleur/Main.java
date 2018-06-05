@@ -1,6 +1,7 @@
 package Musique.Controleur;
 import java.io.IOException;
 import java.util.ArrayList;
+import org.apache.commons.lang3.*;
 
 import Musique.Modele.Morceau;
 import Musique.Vue.Solfege;
@@ -17,7 +18,6 @@ public class Main {
 		   myNotes.add(Morc.notes.charAt(i)) ;
 	  }
 	  Solfege Sol = new Solfege(myNotes,Morc) ;
-	  
 	  
 	  
   }       

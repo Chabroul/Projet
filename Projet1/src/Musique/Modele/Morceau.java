@@ -55,7 +55,7 @@ public class Morceau {
 		      fichiertxt,
 		      "Fichier Texte de Musique");
 		    try
-		      {
+		    {
 			lecteur = new BufferedReader(new FileReader(note));
 		      }
 		    catch(FileNotFoundException exc)
@@ -65,7 +65,7 @@ public class Morceau {
 		     }
 		    jop2.showMessageDialog(null, "Analyse du contenu de " + note, "Succés", JOptionPane.INFORMATION_MESSAGE);
 	    /*JOptionPane jop = new JOptionPane(), jop2 = new JOptionPane();
-	    note = jop.showInputDialog(null, "Donnez le nom du fichier contenant la note musicale!", "Musique", JOptionPane.QUESTION_MESSAGE);
+	    ;; = jop.showInputDialog(null, "Donnez le nom du fichier contenant la note musicale!", "Musique", JOptionPane.QUESTION_MESSAGE);
 	    
 		*/
 	    /*Scanner sc = new Scanner(System.in);
